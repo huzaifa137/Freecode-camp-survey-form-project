@@ -1,0 +1,82 @@
+:root{
+    --green: #e8e0ae;
+    --header:#00f5ed;
+    --form:#b3e87b;
+}
+
+body
+{
+    background-color: var(--green);
+}
+
+#title
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+#description
+{
+    color: greenyellow;
+}
+
+#survey-form{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.4em;
+    padding: 4px;
+    margin-right:2em;
+    margin-left:2em;
+    margin-bottom: 2em;
+    border-radius: 45px;
+    background-image: linear-gradient(to right top, #f8fffd, #ebfffa,
+     #defff6, #d1fff3, #c3ffef, #abffe5, #92feda, #79fdcc, #52f9ad, #2cf588, #05ee5a, #02e702);
+}
+
+.head{
+    text-align: center;
+    margin: 1.2em;
+    border-radius: 15px;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9,
+     #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
+}
+
+input
+{
+    box-shadow: 12;
+    border-radius: 10px;
+}
+input[type=text]{
+    width: 100%;
+}
+input[type=email]{
+    width: 100%;
+}
+input[type=number]{
+    width: 100%;
+}
+#top{
+    font-size: 1.4em;
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#dropdown{
+    width: 100%;
+    border-radius: 10px;
+}
+
+#text-area
+{
+    width: 100%;
+}
+
+input[type=submit]{
+    width: 100%;
+    margin-bottom: 4em;
+    border-radius: 10px;
+}
